@@ -8,7 +8,7 @@ export default class Player {
   public paused = true
   public loadingTrack: NodeJS.Timeout | null = null
   public milliseconds = 0
-  public locked = false
+  public locked = true
   public millisecondsLastUpdate = Date.now()
   public songInfo = new SongInfo()
   public loadAtMilliseconds = 0;
